@@ -1,38 +1,39 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: orange;
-}
-.container {
-    margin: 10px;
-    width: 100vh;
-    height: 100vh;
+    font-family: 'Manrope', sans-serif;
 }
 
-img {
-    width: 100vh;
-}
 
-.titulo {
-    padding: 5px;
-    margin: 5px;
-    display: block;
-    width: 375px;
-    text-align: left;
+h1 {
+    font-weight: 700;
 }
 
 p {
-    padding: 5px;
-    margin: 5px;
-    display: block;
-    width: 375px;
-    background-color: orange;
+    font-weight: 500;
 }
 
-.perfil {
-    padding: 5px;
-    margin: 5px;
-    display: block;
-    width: 375px;
-    background-color: blue;
+img {
+    margin: 10px;
+    padding: 10px;  
 }
+
+.body {
+    background-color: blue;
+    margin: 20px;
+    padding: 40px;   
+}
+
+.footer {
+    background-color: blueviolet;
+    margin: 20px;
+    padding: 40px;   
+    border-radius: 0px 0px 10px 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+
+
